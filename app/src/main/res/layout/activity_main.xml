@@ -31,17 +31,17 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="12sp"
+            android:layout_height="12dp"
             android:background="#129448"/>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="12sp"
+            android:layout_height="12dp"
             android:background="#FFFFFF"/>
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="12sp"
+            android:layout_height="12dp"
             android:background="#CA283A"/>
 
 
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8sp">
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2sp"
+            android:layout_height="2dp"
             android:layout_marginTop="12dp"
             android:background="#BDBDBD" />
 
@@ -87,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8sp">
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -145,7 +145,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2sp"
+            android:layout_height="dp"
             android:layout_marginTop="12dp"
             android:background="#BDBDBD" />
 
@@ -155,7 +155,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8sp">
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -211,7 +211,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2sp"
+            android:layout_height="2dp"
             android:layout_marginTop="12dp"
             android:background="#BDBDBD" />
 
@@ -221,7 +221,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8sp">
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -274,7 +274,7 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="2sp"
+                android:layout_height="2dp"
                 android:layout_marginTop="12dp"
                 android:background="#BDBDBD" />
 
@@ -287,7 +287,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="8sp">
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
