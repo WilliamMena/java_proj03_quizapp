@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT).show();
     }
 
+
+//    retrieves input box and checks if it matches ‘grazie’ without checking for upper or lower case
     public void checkAnswerOne(View view) {
         EditText question01EditView = (EditText) findViewById(R.id.q01_text_input);
         String question01Input = question01EditView.getText().toString();
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+//    checks that the answer for question 2 is checked
     public void checkAnswerTwo(View view) {
         RadioButton question02input = (RadioButton) findViewById(R.id.radio_button_q02_a02);
         boolean answer = question02input.isChecked();
@@ -50,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //    checks that the answer for question 3 is checked
     public void checkAnswerThree(View view) {
         RadioButton question03input = (RadioButton) findViewById(R.id.radio_button_q03_a01);
         boolean answer = question03input.isChecked();
@@ -59,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //    checks that the answer for question 4 is checked
     public void checkAnswerFour(View view) {
         RadioButton question04input = (RadioButton) findViewById(R.id.radio_button_q04_a03);
         boolean answer = question04input.isChecked();
@@ -68,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //    checks that all the checkboxes (since all are correct) are checked
     public void checkAnswerFive(View view) {
         CheckBox question05_answer01 = (CheckBox) findViewById(R.id.q05_checkbox_01);
         CheckBox question05_answer02 = (CheckBox) findViewById(R.id.q05_checkbox_02);
