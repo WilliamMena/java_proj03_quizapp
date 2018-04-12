@@ -9,7 +9,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         tools:context="com.example.android.italyquizapp.MainActivity">
@@ -23,7 +23,7 @@
             android:background="#00796B"
             android:gravity="center_horizontal"
             android:padding="12dp"
-            android:text="Random Questions about Italy"
+            android:text="@string/app_header"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -55,21 +55,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Question 1"
+                android:text="@string/question_1"
                 android:textAppearance="?android:textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="What is the Italian word/phrase for Thank You?"
+                android:text="@string/question_1_text"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <EditText
                 android:id="@+id/q01_text_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="7 letters"
+                android:hint="@string/question_1_hint"
                 android:inputType="textShortMessage" />
 
         </LinearLayout>
@@ -93,14 +93,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Question 2"
+                android:text="@string/question_2"
                 android:textAppearance="?android:textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Where is Vatican City located?"
+                android:text="@string/question_2_text"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioGroup
@@ -115,28 +115,28 @@
                     android:id="@+id/radio_button_q02_a01"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Milan"
+                    android:text="@string/question_2_answer_1"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q02_a02"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rome"
+                    android:text="@string/question_2_answer_2"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q02_a03"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Venice"
+                    android:text="@string/question_2_answer_3"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q02_a04"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="San Marino"
+                    android:text="@string/question_2_answer_4"
                     android:textAppearance="?android:textAppearanceSmall" />
             </RadioGroup>
 
@@ -145,7 +145,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="dp"
+            android:layout_height="2dp"
             android:layout_marginTop="12dp"
             android:background="#BDBDBD" />
 
@@ -161,48 +161,49 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Question 3"
+                android:text="@string/question_3"
                 android:textAppearance="?android:textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="When was the Coliseum first opened?"
+                android:text="@string/question_3_text"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="20dp">
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <RadioButton
                     android:id="@+id/radio_button_q03_a01"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="80 AD"
+                    android:text="@string/question_3_answer_1"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q03_a02"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="20 AD"
+                    android:text="@string/question_3_answer_2"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q03_a03"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="35 BC"
+                    android:text="@string/question_3_answer_3"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q03_a04"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="204 AD"
+                    android:text="@string/question_3_answer_4"
                     android:textAppearance="?android:textAppearanceSmall" />
             </RadioGroup>
 
@@ -227,48 +228,49 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Question 4"
+                android:text="@string/question_4"
                 android:textAppearance="?android:textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Mozzarella cheese was first made with what kind of milk?"
+                android:text="@string/question_4_text"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="20dp">
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
 
                 <RadioButton
                     android:id="@+id/radio_button_q04_a01"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cow Milk"
+                    android:text="@string/question_4_answer_1"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q04_a02"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Goat Milk"
+                    android:text="@string/question_4_answer_2"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q04_a03"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Buffalo Milk"
+                    android:text="@string/question_4_answer_3"
                     android:textAppearance="?android:textAppearanceSmall" />
 
                 <RadioButton
                     android:id="@+id/radio_button_q04_a04"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Human Milk"
+                    android:text="@string/question_4_answer_4"
                     android:textAppearance="?android:textAppearanceSmall" />
             </RadioGroup>
 
@@ -293,42 +295,42 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Question 5"
+                android:text="@string/question_5"
                 android:textAppearance="?android:textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Which artists are from Italy?"
+                android:text="@string/question_5_text"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q05_checkbox_01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Leonardo da Vinci"
+                android:text="@string/question_5_answer_1"
                 android:textAppearance="?android:textAppearanceSmall" />
 
             <CheckBox
                 android:id="@+id/q05_checkbox_02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Michelangelo di Lodovico Buonarroti Simoni"
+                android:text="@string/question_5_answer_2"
                 android:textAppearance="?android:textAppearanceSmall" />
 
             <CheckBox
                 android:id="@+id/q05_checkbox_03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Donato di Niccolò di Betto Bardi"
+                android:text="@string/question_5_answer_3"
                 android:textAppearance="?android:textAppearanceSmall" />
 
             <CheckBox
                 android:id="@+id/q05_checkbox_04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Raffaello Sanzio da Urbino"
+                android:text="@string/question_5_answer_4"
                 android:textAppearance="?android:textAppearanceSmall" />
 
 
@@ -339,7 +341,7 @@
             android:id="@+id/check_answer_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Check Answers"
+            android:text="@string/button_check_answer"
             android:onClick="checkAnswers"/>
 
 

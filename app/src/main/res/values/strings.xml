@@ -1,3 +1,38 @@
 <resources>
     <string name="app_name">ItalyQuizApp</string>
+    <string name="app_header">Random Questions about Italy</string>
+    <string name="question_1">Question 1</string>
+    <string name="question_1_text">What is the Italian word/phrase for Thank You?</string>
+    <string name="question_1_hint">7 letters</string>
+
+    <string name="question_2">Question 2</string>
+    <string name="question_2_text">Where is Vatican City located?</string>
+    <string name="question_2_answer_1">Milan</string>
+    <string name="question_2_answer_2">Rome</string>
+    <string name="question_2_answer_3">Venice</string>
+    <string name="question_2_answer_4">San Marino</string>
+
+    <string name="question_3">Question 3</string>
+    <string name="question_3_text">When was the Coliseum first opened?</string>
+    <string name="question_3_answer_1">80 AD</string>
+    <string name="question_3_answer_2">20 AD</string>
+    <string name="question_3_answer_3">35 BC</string>
+    <string name="question_3_answer_4">204 AD</string>
+
+    <string name="question_4">Question 4</string>
+    <string name="question_4_text">Mozzarella cheese was first made with what kind of milk?</string>
+    <string name="question_4_answer_1">Cow Milk</string>
+    <string name="question_4_answer_2">Goat Milk</string>
+    <string name="question_4_answer_3">Buffalo Milk</string>
+    <string name="question_4_answer_4">Human Milk</string>
+
+    <string name="question_5">Question 5</string>
+    <string name="question_5_text">Which artists are from Italy?</string>
+    <string name="question_5_answer_1">Leonardo da Vinci</string>
+    <string name="question_5_answer_2">Michelangelo di Lodovico Buonarroti Simoni</string>
+    <string name="question_5_answer_3">Donato di Niccolò di Betto Bardi</string>
+    <string name="question_5_answer_4">Raffaello Sanzio da Urbino</string>
+
+    <string name="button_check_answer">Check Answers</string>
+
 </resources>
